@@ -1,0 +1,7 @@
+Start:
+sudo service docker start
+sudo docker run -p 8888:8888 --name tensorflow-udacity -it gcr.io/tensorflow/udacity-assignments:1.0.0
+
+Stop:
+sudo docker stop tensorflow-udacity
+sudo docker rm tensorflow-udacity
